@@ -1,0 +1,9 @@
+services:
+  cleverloon:
+    image: cleverloon
+    ports:
+      - "80:80"
+      - "443:443"
+    build:
+      context: .
+      dockerfile: ./Dockerfile

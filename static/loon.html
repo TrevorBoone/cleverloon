@@ -1,0 +1,32 @@
+<head>
+    <title>Loon!</title>
+    <link rel="icon" href="icon.png">
+    <style>
+        body {
+            background-image: url('tree+branch-512x512.png');
+        }
+        p {
+            font-size: 48px;
+            color: cyan;
+        }
+        .blink {
+            animation: blinker 1s steps(1, end) infinite;
+            color: red;
+        }
+        @keyframes blinker {
+            0% {
+                opacity: 1;
+            }
+            50% {
+                opacity: 0;
+            }
+            100% {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+<p>how rude! I asked you to <span class="blink">leave!</span></p>
+<img src="cleverloon.png" alt="clever loon">
+</body>
